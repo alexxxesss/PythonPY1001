@@ -12,3 +12,4 @@ if size > 1:
     print("Ученик заплатит " + str(coast_for_game) + " рублей")
 else:
     print("Ученик ничего не заплатит")
+

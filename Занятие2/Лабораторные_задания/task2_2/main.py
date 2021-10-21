@@ -1,7 +1,7 @@
 if __name__ == "__main__":
-    sum_ = ...  # TODO заводим переменную для суммы
+    sum_ = 0  # TODO заводим переменную для суммы
 
-    for number in ...:  # TODO диапазон чисел
-        ...
-
+    for number in list(range(10)):  # TODO диапазон чисел
+            sum_ += number
+    print(sum_)
     # TODO печатаем ответ

@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 35
+  - offset: 125
     length: 61
     placeholder_text: '# TODO заменить значение 5-го элемента средним арифметическим'
     initial_state:
@@ -11,7 +11,7 @@ files:
       offset: 35
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: list_numbers[4] = sum(list_numbers) / len(list_numbers)
   text: |
     list_numbers = list(range(5, 17))
@@ -23,6 +23,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Thu, 21 Oct 2021 16:47:46 UTC
 record: -1
 post_submission_on_open: true

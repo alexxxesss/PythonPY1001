@@ -13,7 +13,7 @@ files:
       length: 34
       offset: 164
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: '...'
   text: |
@@ -28,8 +28,28 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Thu, 21 Oct 2021 17:28:16 UTC
-  actual: "     H\n      e\n       l\n        l\n         o\n          ,\n       \
-    \     \n            w\n             o\n              r\n               l\n   \
-    \             d\n"
+  time: Thu, 21 Oct 2021 17:39:18 UTC
+  actual: |2
+         H
+          e
+           l
+            l
+             o
+              ,
+               w
+                o
+                 r
+                  l
+                   d
+         H
+          e
+           l
+            l
+             o
+              ,
+               w
+                o
+                 r
+                  l
+                   d
 record: -1

@@ -6,4 +6,5 @@ current_year = input('Введите текущий год: ')  # TODO запр�
 years = int(current_year) - int(start_year)
 days = years * DAYS_OF_YEAR
 print(days)
-# TODO посчитать и распечатать количество прожитых дней
+
+

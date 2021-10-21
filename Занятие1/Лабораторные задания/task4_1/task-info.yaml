@@ -3,11 +3,14 @@ files:
 - name: tests/output.txt
   visible: false
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 38
-    length: 49
+    length: 50
     placeholder_text: '# TODO сложить два списка'
     initial_state:
       length: 25
@@ -22,13 +25,10 @@ files:
 
     # TODO сложить два списка
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 status: Failed
 feedback:
   message: Incorrect
-  time: Thu, 14 Oct 2021 22:59:43 UTC
+  time: Thu, 21 Oct 2021 15:00:11 UTC
   actual: |
     [1, 2, 3, 3, 2, 1]
 record: -1

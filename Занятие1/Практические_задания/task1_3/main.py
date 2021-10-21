@@ -20,3 +20,4 @@ print(str_, type(str_))
 set_ = {1, 2, 3, 1}  # Множество
 empty_set = set()  # Пустое множество
 print(set_, empty_set, type(set_))
+

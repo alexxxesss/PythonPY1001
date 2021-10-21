@@ -83,7 +83,7 @@ files:
     status: Solved
     encrypted_possible_answer: min(list_digit))
   - offset: 488
-    length: 48
+    length: 49
     placeholder_text: '...)  # TODO максимальная цифра'
     initial_state:
       length: 31

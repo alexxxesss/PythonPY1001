@@ -4,6 +4,14 @@ count_even = 0  # количество четных чисел
 count_odd = 0  # количество нечетных чисел
 
 # TODO посчитать количество четных и нечетных значений в списке
+for value in list_:
+    if value % 2 == 0:
+        count_even += 1
+    else:
+        count_odd += 1
+
+print(count_even)
+print(count_odd)
 
 if count_even > count_odd:
     print('Четных чисел больше')

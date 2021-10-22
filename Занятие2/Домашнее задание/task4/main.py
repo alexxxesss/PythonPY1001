@@ -8,5 +8,8 @@ max_value = numb_list[index_max_value]
 for index, value in enumerate(numb_list):
     if value > max_value:
         max_value = value
+        index_max_value = index
 
-print(max_value)
+numb_list[index_max_value], numb_list[0] = numb_list[0], numb_list[index_max_value]
+
+print(numb_list)

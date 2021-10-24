@@ -1,3 +1,4 @@
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+    def prosto_func(n):
+
+    print(prosto_func(124))

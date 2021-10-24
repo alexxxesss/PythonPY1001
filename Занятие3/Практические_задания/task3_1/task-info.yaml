@@ -12,7 +12,7 @@ files:
       offset: 33
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       words_list = str_.split(" ")
           print(words_list)
@@ -36,6 +36,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

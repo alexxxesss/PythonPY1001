@@ -1,8 +1,9 @@
+
 def counter():
-    count = 4 + 1
+    count = count + 1
 
     return count
 
 
-count = 9
+count = 10
 print(counter())  # что будет выведено?

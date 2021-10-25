@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 343
-    length: 38
+    length: 28
     placeholder_text: '...  # TODO вызвать функцию'
     initial_state:
       length: 27
@@ -33,7 +33,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: Sat, 23 Oct 2021 07:45:48 UTC
 record: -1
 post_submission_on_open: true

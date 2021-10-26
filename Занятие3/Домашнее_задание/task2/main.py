@@ -3,10 +3,12 @@ def check_string(str_):
 
     for d in set(str_):  # выделяем все уникальные символы из строки
         if d not in base:
-            return False
-    return True
+            return "Строка не является двоичным числом"
+    print("-----")
+    return "Строка является двоичным числом"
 
 
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+
+    str_input = input('Введите строку, которую хотите проверить на двоичное число: ')
+    print(check_string(str_input))

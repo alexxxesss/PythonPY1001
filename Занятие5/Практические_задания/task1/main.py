@@ -9,3 +9,7 @@ if __name__ == "__main__":
         for col in range(len(matrix[0])):
             print(matrix[row][col], end=" ")
         print()
+
+    for row in range(len(matrix)):
+        print(matrix[row], end=" ")
+        print()

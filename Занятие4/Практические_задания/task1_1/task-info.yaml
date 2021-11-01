@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 152
-    length: 63
+    length: 38
     placeholder_text: '[]  # TODO записать list comprehension'
     initial_state:
       length: 38
@@ -35,7 +35,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: Sat, 30 Oct 2021 07:10:34 UTC
 record: -1
 post_submission_on_open: true

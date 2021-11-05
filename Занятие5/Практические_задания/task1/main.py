@@ -6,7 +6,7 @@ if __name__ == "__main__":
     ]
 
     for row in range(len(matrix)):
-        for col in range(len(matrix[0])):
+        for col in range(len(matrix[row])):
             print(matrix[row][col], end=" ")
         print()
 
